@@ -10,6 +10,7 @@ public class TestController {
 	
 	@GetMapping("/testMethod")
 	public String testMethod() {
+		//added comment for git commit test
 		return "git demo";
 	}
 
